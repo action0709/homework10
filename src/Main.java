@@ -36,12 +36,10 @@ public class Main {
             if (arr[i] < min) {
                 min = arr[i];
             }
-            ;
-            if (arr[i] > max) {
+                        if (arr[i] > max) {
                 max = arr[i];
             }
-            ;
-        }
+                    }
         System.out.println("Минимальная сумма трат за день составила " + min + " рублей. " +
                 "Максимальная сумма трат за день составила " + max + " рублей");
     }
